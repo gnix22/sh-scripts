@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
+#!/usr/bin/env bash 
+# ^ had to use the above since !/bin/bash wasn't working
 
 # check for whether or not there are two arguments given to the script
 if [ $# != 2 ]; then
